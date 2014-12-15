@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B772DB7E1A3EA49A00E626D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B772DB7D1A3EA49A00E626D1 /* main.m */; };
+		B772DB811A3EA49A00E626D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B772DB801A3EA49A00E626D1 /* AppDelegate.m */; };
+		B772DB841A3EA49A00E626D1 /* CulveDisplay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B772DB821A3EA49A00E626D1 /* CulveDisplay.xcdatamodeld */; };
+		B772DB871A3EA49A00E626D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B772DB861A3EA49A00E626D1 /* ViewController.m */; };
+		B772DB8A1A3EA49A00E626D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B772DB881A3EA49A00E626D1 /* Main.storyboard */; };
+		B772DB8C1A3EA49A00E626D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B772DB8B1A3EA49A00E626D1 /* Images.xcassets */; };
+		B772DB8F1A3EA49B00E626D1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B772DB8D1A3EA49B00E626D1 /* LaunchScreen.xib */; };
+		B772DB9B1A3EA49B00E626D1 /* CulveDisplayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B772DB9A1A3EA49B00E626D1 /* CulveDisplayTests.m */; };
+		B7792A8B1A3EA9C200AE1352 /* CulveLive.m in Sources */ = {isa = PBXBuildFile; fileRef = B7792A8A1A3EA9C200AE1352 /* CulveLive.m */; };
+		B7792A8D1A3EAC6C00AE1352 /* data.txt in Resources */ = {isa = PBXBuildFile; fileRef = B7792A8C1A3EAC6C00AE1352 /* data.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B772DB951A3EA49B00E626D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B772DB701A3EA49A00E626D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B772DB771A3EA49A00E626D1;
+			remoteInfo = CulveDisplay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B772DB781A3EA49A00E626D1 /* CulveDisplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CulveDisplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B772DB7C1A3EA49A00E626D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B772DB7D1A3EA49A00E626D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B772DB7F1A3EA49A00E626D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B772DB801A3EA49A00E626D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B772DB831A3EA49A00E626D1 /* CulveDisplay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CulveDisplay.xcdatamodel; sourceTree = "<group>"; };
+		B772DB851A3EA49A00E626D1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B772DB861A3EA49A00E626D1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B772DB891A3EA49A00E626D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B772DB8B1A3EA49A00E626D1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B772DB8E1A3EA49B00E626D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B772DB941A3EA49B00E626D1 /* CulveDisplayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CulveDisplayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B772DB991A3EA49B00E626D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B772DB9A1A3EA49B00E626D1 /* CulveDisplayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CulveDisplayTests.m; sourceTree = "<group>"; };
+		B7792A891A3EA99B00AE1352 /* CulveLive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CulveLive.h; sourceTree = "<group>"; };
+		B7792A8A1A3EA9C200AE1352 /* CulveLive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CulveLive.m; sourceTree = "<group>"; };
+		B7792A8C1A3EAC6C00AE1352 /* data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = data.txt; path = "../../HeartRateCurve-master/HeartRateCurve/HeartRateCurve/data.txt"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B772DB751A3EA49A00E626D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B772DB911A3EA49B00E626D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B772DB6F1A3EA49900E626D1 = {
+			isa = PBXGroup;
+			children = (
+				B772DB7A1A3EA49A00E626D1 /* CulveDisplay */,
+				B772DB971A3EA49B00E626D1 /* CulveDisplayTests */,
+				B772DB791A3EA49A00E626D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B772DB791A3EA49A00E626D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B772DB781A3EA49A00E626D1 /* CulveDisplay.app */,
+				B772DB941A3EA49B00E626D1 /* CulveDisplayTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B772DB7A1A3EA49A00E626D1 /* CulveDisplay */ = {
+			isa = PBXGroup;
+			children = (
+				B7792A8C1A3EAC6C00AE1352 /* data.txt */,
+				B772DB7F1A3EA49A00E626D1 /* AppDelegate.h */,
+				B772DB801A3EA49A00E626D1 /* AppDelegate.m */,
+				B772DB851A3EA49A00E626D1 /* ViewController.h */,
+				B772DB861A3EA49A00E626D1 /* ViewController.m */,
+				B772DB881A3EA49A00E626D1 /* Main.storyboard */,
+				B772DB8B1A3EA49A00E626D1 /* Images.xcassets */,
+				B772DB8D1A3EA49B00E626D1 /* LaunchScreen.xib */,
+				B772DB821A3EA49A00E626D1 /* CulveDisplay.xcdatamodeld */,
+				B772DB7B1A3EA49A00E626D1 /* Supporting Files */,
+				B7792A891A3EA99B00AE1352 /* CulveLive.h */,
+				B7792A8A1A3EA9C200AE1352 /* CulveLive.m */,
+			);
+			path = CulveDisplay;
+			sourceTree = "<group>";
+		};
+		B772DB7B1A3EA49A00E626D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B772DB7C1A3EA49A00E626D1 /* Info.plist */,
+				B772DB7D1A3EA49A00E626D1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B772DB971A3EA49B00E626D1 /* CulveDisplayTests */ = {
+			isa = PBXGroup;
+			children = (
+				B772DB9A1A3EA49B00E626D1 /* CulveDisplayTests.m */,
+				B772DB981A3EA49B00E626D1 /* Supporting Files */,
+			);
+			path = CulveDisplayTests;
+			sourceTree = "<group>";
+		};
+		B772DB981A3EA49B00E626D1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B772DB991A3EA49B00E626D1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B772DB771A3EA49A00E626D1 /* CulveDisplay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B772DB9E1A3EA49B00E626D1 /* Build configuration list for PBXNativeTarget "CulveDisplay" */;
+			buildPhases = (
+				B772DB741A3EA49A00E626D1 /* Sources */,
+				B772DB751A3EA49A00E626D1 /* Frameworks */,
+				B772DB761A3EA49A00E626D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CulveDisplay;
+			productName = CulveDisplay;
+			productReference = B772DB781A3EA49A00E626D1 /* CulveDisplay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B772DB931A3EA49B00E626D1 /* CulveDisplayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B772DBA11A3EA49B00E626D1 /* Build configuration list for PBXNativeTarget "CulveDisplayTests" */;
+			buildPhases = (
+				B772DB901A3EA49B00E626D1 /* Sources */,
+				B772DB911A3EA49B00E626D1 /* Frameworks */,
+				B772DB921A3EA49B00E626D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B772DB961A3EA49B00E626D1 /* PBXTargetDependency */,
+			);
+			name = CulveDisplayTests;
+			productName = CulveDisplayTests;
+			productReference = B772DB941A3EA49B00E626D1 /* CulveDisplayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B772DB701A3EA49A00E626D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = g4idrijs;
+				TargetAttributes = {
+					B772DB771A3EA49A00E626D1 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					B772DB931A3EA49B00E626D1 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = B772DB771A3EA49A00E626D1;
+					};
+				};
+			};
+			buildConfigurationList = B772DB731A3EA49A00E626D1 /* Build configuration list for PBXProject "CulveDisplay" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B772DB6F1A3EA49900E626D1;
+			productRefGroup = B772DB791A3EA49A00E626D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B772DB771A3EA49A00E626D1 /* CulveDisplay */,
+				B772DB931A3EA49B00E626D1 /* CulveDisplayTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B772DB761A3EA49A00E626D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7792A8D1A3EAC6C00AE1352 /* data.txt in Resources */,
+				B772DB8A1A3EA49A00E626D1 /* Main.storyboard in Resources */,
+				B772DB8F1A3EA49B00E626D1 /* LaunchScreen.xib in Resources */,
+				B772DB8C1A3EA49A00E626D1 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B772DB921A3EA49B00E626D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B772DB741A3EA49A00E626D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B772DB841A3EA49A00E626D1 /* CulveDisplay.xcdatamodeld in Sources */,
+				B772DB811A3EA49A00E626D1 /* AppDelegate.m in Sources */,
+				B772DB871A3EA49A00E626D1 /* ViewController.m in Sources */,
+				B772DB7E1A3EA49A00E626D1 /* main.m in Sources */,
+				B7792A8B1A3EA9C200AE1352 /* CulveLive.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B772DB901A3EA49B00E626D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B772DB9B1A3EA49B00E626D1 /* CulveDisplayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B772DB961A3EA49B00E626D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B772DB771A3EA49A00E626D1 /* CulveDisplay */;
+			targetProxy = B772DB951A3EA49B00E626D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B772DB881A3EA49A00E626D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B772DB891A3EA49A00E626D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B772DB8D1A3EA49B00E626D1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B772DB8E1A3EA49B00E626D1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B772DB9C1A3EA49B00E626D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B772DB9D1A3EA49B00E626D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B772DB9F1A3EA49B00E626D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CulveDisplay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B772DBA01A3EA49B00E626D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CulveDisplay/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B772DBA21A3EA49B00E626D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CulveDisplayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CulveDisplay.app/CulveDisplay";
+			};
+			name = Debug;
+		};
+		B772DBA31A3EA49B00E626D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CulveDisplayTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CulveDisplay.app/CulveDisplay";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B772DB731A3EA49A00E626D1 /* Build configuration list for PBXProject "CulveDisplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B772DB9C1A3EA49B00E626D1 /* Debug */,
+				B772DB9D1A3EA49B00E626D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B772DB9E1A3EA49B00E626D1 /* Build configuration list for PBXNativeTarget "CulveDisplay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B772DB9F1A3EA49B00E626D1 /* Debug */,
+				B772DBA01A3EA49B00E626D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B772DBA11A3EA49B00E626D1 /* Build configuration list for PBXNativeTarget "CulveDisplayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B772DBA21A3EA49B00E626D1 /* Debug */,
+				B772DBA31A3EA49B00E626D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B772DB821A3EA49A00E626D1 /* CulveDisplay.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B772DB831A3EA49A00E626D1 /* CulveDisplay.xcdatamodel */,
+			);
+			currentVersion = B772DB831A3EA49A00E626D1 /* CulveDisplay.xcdatamodel */;
+			path = CulveDisplay.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B772DB701A3EA49A00E626D1 /* Project object */;
+}
