@@ -121,7 +121,6 @@
     dataSourceCounterIndex ++;
     dataSourceCounterIndex %= [self.dataSource count];
     
-    
     NSInteger pixelPerPoint = 1;
     static NSInteger xCoordinateInMoniter = 0;
     
@@ -129,7 +128,7 @@
     xCoordinateInMoniter += pixelPerPoint;
     xCoordinateInMoniter %= (int)(CGRectGetWidth(self.translationMoniterView.frame));
     
-    //    NSLog(@"吐出来的点:%@",NSStringFromCGPoint(targetPointToAdd));
+    NSLog(@"吐出来的点:%@",NSStringFromCGPoint(targetPointToAdd));
     return targetPointToAdd;
 }
 
