@@ -184,7 +184,7 @@ static const NSInteger kMaxContainerCapacity = 300;
     if (self.currentPointsCount == 0) {
         return;
     }
-    CGFloat curveLineWidth = 0.8;
+    CGFloat curveLineWidth = 1.8;
     CGContextRef currentContext = UIGraphicsGetCurrentContext();
     CGContextSetLineWidth(currentContext, curveLineWidth);
     CGContextSetStrokeColorWithColor(UIGraphicsGetCurrentContext(), [UIColor greenColor].CGColor);
