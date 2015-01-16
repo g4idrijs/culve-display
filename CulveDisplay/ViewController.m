@@ -128,7 +128,11 @@
     xCoordinateInMoniter += pixelPerPoint;
     xCoordinateInMoniter %= (int)(CGRectGetWidth(self.translationMoniterView.frame));
     
+<<<<<<< HEAD
     NSLog(@":%@",NSStringFromCGPoint(targetPointToAdd));
+=======
+    NSLog(@"吐出来的点:%@",NSStringFromCGPoint(targetPointToAdd));
+>>>>>>> FETCH_HEAD
     return targetPointToAdd;
 }
 
