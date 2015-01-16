@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B76BC4451A5FE70600802A42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B76BC4431A5FE70600802A42 /* Main.storyboard */; };
 		B772DB7E1A3EA49A00E626D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B772DB7D1A3EA49A00E626D1 /* main.m */; };
 		B772DB811A3EA49A00E626D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B772DB801A3EA49A00E626D1 /* AppDelegate.m */; };
 		B772DB841A3EA49A00E626D1 /* CulveDisplay.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B772DB821A3EA49A00E626D1 /* CulveDisplay.xcdatamodeld */; };
 		B772DB871A3EA49A00E626D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B772DB861A3EA49A00E626D1 /* ViewController.m */; };
-		B772DB8A1A3EA49A00E626D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B772DB881A3EA49A00E626D1 /* Main.storyboard */; };
 		B772DB8C1A3EA49A00E626D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B772DB8B1A3EA49A00E626D1 /* Images.xcassets */; };
 		B772DB8F1A3EA49B00E626D1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B772DB8D1A3EA49B00E626D1 /* LaunchScreen.xib */; };
 		B772DB9B1A3EA49B00E626D1 /* CulveDisplayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B772DB9A1A3EA49B00E626D1 /* CulveDisplayTests.m */; };
 		B7792A8B1A3EA9C200AE1352 /* CulveLive.m in Sources */ = {isa = PBXBuildFile; fileRef = B7792A8A1A3EA9C200AE1352 /* CulveLive.m */; };
-		B7792A8D1A3EAC6C00AE1352 /* data.txt in Resources */ = {isa = PBXBuildFile; fileRef = B7792A8C1A3EAC6C00AE1352 /* data.txt */; };
+		B7992F441A3F5D4F003EFF86 /* data.txt in Resources */ = {isa = PBXBuildFile; fileRef = B7992F431A3F5D4F003EFF86 /* data.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B76BC4441A5FE70600802A42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B772DB781A3EA49A00E626D1 /* CulveDisplay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CulveDisplay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B772DB7C1A3EA49A00E626D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B772DB7D1A3EA49A00E626D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -38,7 +39,6 @@
 		B772DB831A3EA49A00E626D1 /* CulveDisplay.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CulveDisplay.xcdatamodel; sourceTree = "<group>"; };
 		B772DB851A3EA49A00E626D1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B772DB861A3EA49A00E626D1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B772DB891A3EA49A00E626D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B772DB8B1A3EA49A00E626D1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		B772DB8E1A3EA49B00E626D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		B772DB941A3EA49B00E626D1 /* CulveDisplayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CulveDisplayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -46,7 +46,7 @@
 		B772DB9A1A3EA49B00E626D1 /* CulveDisplayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CulveDisplayTests.m; sourceTree = "<group>"; };
 		B7792A891A3EA99B00AE1352 /* CulveLive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CulveLive.h; sourceTree = "<group>"; };
 		B7792A8A1A3EA9C200AE1352 /* CulveLive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CulveLive.m; sourceTree = "<group>"; };
-		B7792A8C1A3EAC6C00AE1352 /* data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = data.txt; path = "../../HeartRateCurve-master/HeartRateCurve/HeartRateCurve/data.txt"; sourceTree = "<group>"; };
+		B7992F431A3F5D4F003EFF86 /* data.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = data.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,12 +88,12 @@
 		B772DB7A1A3EA49A00E626D1 /* CulveDisplay */ = {
 			isa = PBXGroup;
 			children = (
-				B7792A8C1A3EAC6C00AE1352 /* data.txt */,
+				B76BC4431A5FE70600802A42 /* Main.storyboard */,
+				B7992F431A3F5D4F003EFF86 /* data.txt */,
 				B772DB7F1A3EA49A00E626D1 /* AppDelegate.h */,
 				B772DB801A3EA49A00E626D1 /* AppDelegate.m */,
 				B772DB851A3EA49A00E626D1 /* ViewController.h */,
 				B772DB861A3EA49A00E626D1 /* ViewController.m */,
-				B772DB881A3EA49A00E626D1 /* Main.storyboard */,
 				B772DB8B1A3EA49A00E626D1 /* Images.xcassets */,
 				B772DB8D1A3EA49B00E626D1 /* LaunchScreen.xib */,
 				B772DB821A3EA49A00E626D1 /* CulveDisplay.xcdatamodeld */,
@@ -210,10 +210,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7792A8D1A3EAC6C00AE1352 /* data.txt in Resources */,
-				B772DB8A1A3EA49A00E626D1 /* Main.storyboard in Resources */,
+				B7992F441A3F5D4F003EFF86 /* data.txt in Resources */,
 				B772DB8F1A3EA49B00E626D1 /* LaunchScreen.xib in Resources */,
 				B772DB8C1A3EA49A00E626D1 /* Images.xcassets in Resources */,
+				B76BC4451A5FE70600802A42 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,10 +258,10 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B772DB881A3EA49A00E626D1 /* Main.storyboard */ = {
+		B76BC4431A5FE70600802A42 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B772DB891A3EA49A00E626D1 /* Base */,
+				B76BC4441A5FE70600802A42 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

@@ -23,8 +23,8 @@
 - (CulveLive *)refreshMoniterView
 {
     if (!_refreshMoniterView) {
-        CGFloat xOffset = 10;
-        _refreshMoniterView = [[CulveLive alloc] initWithFrame:CGRectMake(xOffset, 20, CGRectGetWidth(self.view.frame) - 2 * xOffset, 200)];
+        CGFloat xOffset = 10;   // origin point
+        _refreshMoniterView = [[CulveLive alloc] initWithFrame:CGRectMake(xOffset, 200, CGRectGetWidth(self.view.frame) - 1 * xOffset, 200)];
         _refreshMoniterView.backgroundColor = [UIColor blackColor];
     }
     return _refreshMoniterView;
@@ -55,10 +55,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.edgesForExtendedLayout = UIRectEdgeNone;
-    self.title = @"心电图";
+    self.title = @"Culve";
     
     [self.view addSubview:self.refreshMoniterView];
-    [self.view addSubview:self.translationMoniterView];
+    //[self.view addSubview:self.translationMoniterView];
     
     self.view.backgroundColor = [UIColor lightGrayColor];
     void (^createData)(void) = ^{
@@ -121,7 +121,6 @@
     dataSourceCounterIndex ++;
     dataSourceCounterIndex %= [self.dataSource count];
     
-    
     NSInteger pixelPerPoint = 1;
     static NSInteger xCoordinateInMoniter = 0;
     
@@ -129,7 +128,7 @@
     xCoordinateInMoniter += pixelPerPoint;
     xCoordinateInMoniter %= (int)(CGRectGetWidth(self.translationMoniterView.frame));
     
-    //    NSLog(@"吐出来的点:%@",NSStringFromCGPoint(targetPointToAdd));
+    NSLog(@":%@",NSStringFromCGPoint(targetPointToAdd));
     return targetPointToAdd;
 }
 

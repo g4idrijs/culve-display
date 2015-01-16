@@ -6,7 +6,6 @@
 //  Copyright (c) 2014年 g4idrijs. All rights reserved.
 //
 
-
 #import <UIKit/UIKit.h>
 
 @interface PointContainer : NSObject

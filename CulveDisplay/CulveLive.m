@@ -25,7 +25,8 @@ static const NSInteger kMaxContainerCapacity = 300;
 {
     free(self.refreshPointContainer);
     free(self.translationPointContainer);
-    self.refreshPointContainer = self.translationPointContainer = NULL;
+    self.refreshPointContainer = NULL;
+    self.translationPointContainer = NULL;
 }
 
 + (PointContainer *)sharedContainer
@@ -184,7 +185,7 @@ static const NSInteger kMaxContainerCapacity = 300;
     if (self.currentPointsCount == 0) {
         return;
     }
-    CGFloat curveLineWidth = 0.8;
+    CGFloat curveLineWidth = 1.8;
     CGContextRef currentContext = UIGraphicsGetCurrentContext();
     CGContextSetLineWidth(currentContext, curveLineWidth);
     CGContextSetStrokeColorWithColor(UIGraphicsGetCurrentContext(), [UIColor greenColor].CGColor);
